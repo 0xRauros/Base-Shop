@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-tow_vbraw-j8tzi*dl$2*hq-+75(t8^_pt+pn8872y0a7&d$k0'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -131,11 +131,11 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Stripe settings
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51O2wkrAgGnIbOzzBJ6VfYN6QfsE8uhyI7rWVtB0aCR2ATrE1DjhjyyEkKaE3sGYtuVRAZnfeCMxFCFMeBJM9Isdz002zVONIiv'
-STRIPE_SECRET_KEY = 'sk_test_51O2wkrAgGnIbOzzBd0fMBfCs0m4vcIN2iSEVXMjpRF77SDL3o29wh5w0fPPqcJT8jVU4ZFtsD8etS5H3zByXZesv00SbqWYoR1'
-STRIPE_API_VERSION = '2022-08-01'
+STRIPE_PUBLISHABLE_KEY = ''
+STRIPE_SECRET_KEY = ''
+STRIPE_API_VERSION = ''
 
-STRIPE_WEBHOOK_SECRET = 'whsec_bbc798ae8e8c7abfafeb5821e39ed6fca4dcc07088594b1e07d0bd53fb05f211'
+STRIPE_WEBHOOK_SECRET = ''
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
